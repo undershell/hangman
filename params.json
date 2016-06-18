@@ -1,0 +1,6 @@
+{
+  "name": "Arabic Hangman",
+  "tagline": "Word Game",
+  "body": "#Hangman\r\n\r\nThis is a hangman game that was dedicated to Arabic learners, but which can be easily updated and adapted to any other language or purpose through the configuration file data.json.\r\n\r\n==================\r\n\r\nThe database is <b>data.json</b>\r\n\r\n<h3>Overview</h3>\r\n\r\nThis is an implementation of the hangman game using HTML/JS/CSS and deploying a json database. it includes :\r\n- Customizable categories with multiple selection\r\n- A hint option\r\n- A responsive interface (Desktop/Mobile)\r\n- Adaptative design\r\n- The possibility of documenting the answers through other websites like dictionaries\r\n\r\n<h3>Perspectives</h3>\r\n\r\nThe next version will include :\r\n- a new design\r\n- a level system\r\n- a social scorer\r\n- rich categories and new words\r\n- and other ameliorations ...\r\n\r\n\r\n<h4>Tools :</h4>\r\n- Based on the HTML framework Skeleton\r\n- Using JQuery Multiselect Plugin && JQuery StackBox Plugin\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}

@@ -2,9 +2,11 @@
 
 This is a hangman game that was dedicated to Arabic learners, but which can be easily updated and adapted to any other language or purpose through the configuration file data.json.
 
-==================
+<a href="http://htmlpreview.github.io/?https://github.com/undershell/hangman/blob/master/hangman/index.html">DEMO</a>
 
-Demo : http://indev.nbyl.me/hangman/
+
+
+==================
 
 The database is <b>data.json</b>
 
@@ -16,15 +18,20 @@ This is an implementation of the hangman game using HTML/JS/CSS and deploying a 
 - A responsive interface (Desktop/Mobile)
 - Adaptative design
 - The possibility of documenting the answers through other websites like dictionaries
-- ...
+
+
+<p align="center">
+  <img src="http://i68.tinypic.com/2mdnjax.jpg" alt="Desktop view" width="400" height="350" />
+  <img src="http://i65.tinypic.com/24m5mhf.jpg" alt="Mobile view"  width="200" height="300" />
+</p>
 
 <h3>Perspectives</h3>
 
 The next version will include :
-- a new design
-- a level system
-- a social scorer
-- rich categories and new words
+- A new design
+- A level system
+- A social scorer
+- Rich categories and new words
 - and other ameliorations ...
 
 
@@ -33,6 +40,6 @@ The next version will include :
 - JQuery
 - JQuery Multiselect Plugin
 - JQuery StackBox Plugin
-- Free bip sound from soundjay (http://www.soundjay.com/button/button-30.mp3)
-- favicon : freeware with allowed commercial usage (http://www.iconarchive.com/show/colorful-long-shadow-icons-by-graphicloads/Book-icon.html) 
+- Free bip sound from soundjay <a href="http://www.soundjay.com/button/button-30.mp3">[1]</a>
+- favicon : freeware with allowed commercial usage <a href="http://www.iconarchive.com/show/colorful-long-shadow-icons-by-graphicloads/Book-icon.html">[2]</a>
 - a javascript portion by Cathy Dutton under MIT licence

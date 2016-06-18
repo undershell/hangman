@@ -1,0 +1,202 @@
+/*-- Style
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.footer, .centric {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.gateback{
+
+}
+
+.game{
+	margin-top:1%;
+	border:	1px solid;
+}
+
+h1{
+  font-weight: bold;
+}
+
+
+body {
+  color: #555;
+  background-color: #f5f7fa;
+}
+
+.container {
+
+}
+
+.header{
+
+}
+
+.core{
+
+}
+
+canvas {
+  color: #000;
+  border: #000 dashed 2px;
+  padding: 15px;
+}
+
+#stickman{
+	margin: 10px 0 0;
+
+}
+
+#buttons{
+
+}
+
+#alphabet {
+
+}
+
+#keyboard{
+
+}
+
+
+
+#alphabet:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#alphabet li {
+  float: right;
+  margin: 0 10px 10px 0;
+  list-style: none;
+  width: 15px;
+  height: 30px;
+  padding: 5px 11px;
+  background: #eee;
+  color: #000;
+  cursor: pointer;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border: solid 1px #000;
+  font-size: 1.2em;
+}
+#alphabet li:hover {
+  background: #444;
+  border: solid 1px #000;
+  color: #fff;
+}
+
+#my-word {
+  color: #000;
+  margin: 0;
+  display: block;
+  padding: 0;
+  display: block;
+}
+
+#my-word li {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 1.6em;
+}
+
+.active {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  -moz-transition: all 1s ease-in;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  cursor: default;
+}
+.active:hover {
+  -moz-transition: all 1s ease-in;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  -moz-transition: all 1s ease-in;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+
+#mylives {
+  font-size: 1.6em;
+  text-align: center;
+  display: block;
+}
+
+.note{
+  font-size: 1.6em;
+  text-align: center;
+  display: block;
+  margin-top:20px;
+}
+
+#clue {
+  font-size: 1.4em;
+}
+
+.jump{
+   clear: both;
+}
+
+.ctg a {text-decoration: none; color:#11a9e2;}
+
+span {
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: bold;
+}
+
+.selector{
+	min-width: 90px;
+	display: inline-block;
+}
+
+.footer{ 
+	margin: 50px 0 0 0;
+}
+
+
+/*-- Plugins
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.SumoSelect .select-all {
+  padding: 5px 0px 5px 35px;
+  height: 30px;
+}
+
+.close {padding:0;line-height:0;}
+
+
+
+/*-- Responsive
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 480px) {
+	#alphabet { padding: 0 0 0 15px; }
+	#alphabet li {
+		margin: 0 5px 5px 0;
+		list-style: none;
+		width: 10px;
+		height: 25px;
+		padding: 5px 15px;
+		font-size: 1.2em;
+	}
+}
+
+/*-- Modal Box
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+

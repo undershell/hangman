@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Arabic Hangman game - لعبة المشنقة</title>
+  <meta name="description" content="hangman game, arabic hangman, learn Arabic, game">
+  <meta name="author" content="nbyl, undershell">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/jquery.multiselect.css">
+  <link rel="stylesheet" href="css/jquery.stackbox.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="rsc/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="container centric game">
+
+	<div class="row header" style="margin-top: 2%">
+		<h1>Al-Mishnaqah</h1>
+		<!--<h4>the Arabic Hangman Game for learners</h4>-->
+	</div>
+
+	<div class="row" style="margin-top: 3%">
+		<div class="six columns">
+			<span class="selector">Categories :</span> <select multiple="multiple" id="categories"></select>
+		</div>	
+		<div class="six columns right">
+			<span class="selector">Level :</span> <select id="levels"></select>
+		</div>
+	</div>
+
+	<div class="row core centric" style="margin-top: 2%">
+		<p class="note" id="catagoryName"></p>
+		<div class="">
+			<canvas id="stickman">This Text will show if the Browser does NOT support HTML5 Canvas tag</canvas>
+		</div>
+		<div class="">
+			<div id="hold" dir="rtl"> </div>
+			<p id="mylives"></p>
+			<p id="clue"></p>
+		</div>
+		<div class="" id="keyboard">
+			<div id="buttons" dir="rtl"></div>
+		</div>
+	</div>  
+
+	<div class="row centric">
+		<div class="control">
+			<button id="hint">Hint</button>
+			<button id="reset">Play again</button>
+			<button id="howtoplay" onclick="" 
+			href="#howtoplaybox" data-stackbox-close-button="false" data-stackbox-width="400" data-stackbox="true" data-stackbox-position="bottom" data-stackbox-anim-open="bounceInUp slow" data-stackbox-anim-close="hinge slow">How to play !</button>
+		</div>
+		<div id="howtoplaybox" style="display:none;">
+			<div class="stackbox-body">Use your Arabic keyboard or the alphabet below to guess the word, or click hint to get a clue.</div>
+		</div>
+	</div>
+
+	<div class="row footer" style="margin-top: 5%">
+	    <p>AlMashnaqah  © 2015</p>
+	</div>
+	
+</div>
+
+	<audio id="play" src="rsc/button.mp3"></audio>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.multiselect.js"></script>
+	<script src="js/jquery.stackbox.min.js"></script>
+	<script src="data.json"></script>
+	<script src="js/index.js"></script>
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

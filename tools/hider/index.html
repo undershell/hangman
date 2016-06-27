@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>مُعَمّي الحروف السحري</title>
+  <meta name="description" content="hangman game, arabic hangman, learn Arabic, game, لعبة المشنقة, المشنقة">
+  <meta name="author" content="nbyl, undershell">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– 
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">-->
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="rsc/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="container centric game">
+
+	<div class="row header" style="margin-top: 2%">
+		<h1>مُعَمّي الحروف السحري</h1>
+		<h4> لتعميّة آلية في ألعاب الكلمات والحروف والمشانق والحروب</h4>
+	</div>
+	
+	<hr>
+	
+	<div class="">
+		<div id="hold"> </div>
+	</div>
+		<br />
+	<div class="row">
+		<div class="column">
+			<input id="word" type="text" placeholder="أدخل الكلمة" />
+		</div>	
+	</div>  
+	
+	<div class="row centric">
+		<div class="control">
+			<button id="process">تحويل</button>
+			<button id="copy" class="cpybtn" data-clipboard-action="copy" data-clipboard-text="لا يوجد نص">نسخ</button>
+			<button id="reset">محو</button>
+		</div>
+		
+		<div class="centric" id="keyboard">
+			<span id="buttons"></span>
+		</div>
+		
+	</div>
+	
+	<hr />
+			<p>مع كل اختيار حرف يتم نسخ الكلمة آليا</p>
+
+	<div class="row footer" style="margin-top: 5%">
+	    <p id="footer">AlMashnaqah © SeenJeem</p>
+	</div>
+	
+</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.12/clipboard.min.js"></script>
+	<script src="js/index.js"></script>
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

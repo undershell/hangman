@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="hangman game, arabic hangman, learn Arabic, game, لعبة المشنقة, المشنقة">
+  <meta name="author" content="nbyl, undershell">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/jquery.multiselect.css">
+  <link rel="stylesheet" href="css/jquery.stackbox.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="rsc/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="container centric game">
+
+	<div class="row header" style="margin-top: 2%">
+		<h1></h1>
+		<h4></h4>
+	</div>
+
+	<div class="row">
+		<div class="six columns">
+			<span id="i_category" class="selector"></span> <select multiple="multiple" id="categories"></select>
+		</div>	
+		<div class="six columns right">
+			<span id="i_level" class="selector"></span> <select id="levels"></select>
+		</div>
+	</div>
+	<hr>
+	<div class="row core centric" style="margin-top: 2%">
+		<p class="note" >
+			<span id="catagoryName" style="color:red;"></span>
+			<span id="question"></span>
+		</p>
+		
+		<div class="">
+			<canvas id="stickman">This Text will show if the Browser does NOT support HTML5 Canvas tag</canvas>
+		</div>
+		<div class="">
+			<div id="hold"> </div>
+			<p id="mylives"></p>
+			<p id="clue"></p>
+		</div>
+		<div class="" id="keyboard">
+			<div id="buttons"></div>
+		</div>
+	</div>  
+
+	<div class="row centric">
+		<div class="control">
+			<button id="next"></button>
+			<button id="hint"></button>
+			<button id="reset"></button>
+			<button id="howtoplay" onclick="" 
+			href="#howtoplaybox" data-stackbox-close-button="false" data-stackbox-width="400" data-stackbox="true" data-stackbox-position="bottom" data-stackbox-anim-open="bounceInUp slow" data-stackbox-anim-close="hinge slow"></button>
+		</div>
+		<div id="howtoplaybox" style="display:none;">
+			<div class="stackbox-body" id="howtoplay_msg"></div>
+		</div>
+	</div>
+
+	<div class="row footer" style="margin-top: 5%">
+	    <p id="footer"></p>
+	</div>
+	
+</div>
+
+	<audio id="play" src="rsc/button.mp3"></audio>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.multiselect.js"></script>
+	<script src="js/jquery.stackbox.min.js"></script>
+	<script src="data.js"></script>
+	<script src="js/index.js"></script>
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

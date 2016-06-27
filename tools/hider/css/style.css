@@ -1,0 +1,172 @@
+/*-- Style
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@import url(http://fonts.googleapis.com/earlyaccess/amiri.css);
+
+body{
+font-family: 'Amiri', serif;  
+  
+}
+
+#button{
+  font-size: 15px;
+}
+
+#tocopy{
+  color: #fff;
+}
+
+
+.footer, .centric {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.game{
+	margin-top:2%;
+	/*border:	1px solid;*/
+}
+
+
+#stickman{
+	margin: 10px 0 0;
+
+}
+
+#buttons{
+
+}
+
+#alphabet {
+
+}
+
+#keyboard{
+  width: 350px;
+}
+
+
+
+#alphabet:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#alphabet li {
+  float: right;
+  margin: 0 10px 10px 0;
+  list-style: none;
+  width: 15px;
+  height: 30px;
+  padding: 5px 11px 7px 11px;
+  background: #eee;
+  color: #000;
+  cursor: pointer;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border: solid 1px #000;
+  font-size: 1.4em;
+}
+#alphabet li:hover {
+  background: #444;
+  border: solid 1px #000;
+  color: #fff;
+}
+
+#my-word {
+  color: #000;
+  margin: 0;
+  display: block;
+  padding: 0;
+  display: block;
+}
+
+#my-word li {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 1.6em;
+}
+
+.active {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  -moz-transition: all 1s ease-in;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  cursor: default;
+}
+.active:hover {
+  -moz-transition: all 1s ease-in;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  -moz-transition: all 1s ease-in;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+
+
+.note{
+  font-size: 1.6em;
+  text-align: center;
+  display: block;
+  margin-top:20px;
+}
+
+.jump{
+   clear: both;
+}
+
+.ctg a {text-decoration: none; color:#11a9e2;}
+
+span {
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: bold;
+}
+
+.selector{
+	min-width: 90px;
+	display: inline-block;
+	font-size: 20px;
+}
+
+.footer{ 
+	margin: 50px 0 0 0;
+}
+
+
+/*-- Plugins
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.SumoSelect .select-all {
+  padding: 5px 0px 5px 35px;
+  height: 30px;
+}
+
+.close {padding:0;line-height:0;}
+
+
+
+/*-- Responsive
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 480px) {
+
+}
+
+/*-- Modal Box
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+

@@ -2,13 +2,25 @@
 
 This is a hangman game that was dedicated to Arabic learners, but which can be easily updated and adapted to any other language or purpose through the configuration file data.json.
 
-<a href="http://htmlpreview.github.io/?https://github.com/undershell/hangman/blob/master/hangman/index.html">DEMO</a>
+<p align="center">
+<b>DEMO : </b>
+[<a target="_blank" href="http://htmlpreview.github.io/?https://github.com/undershell/hangman/blob/master/index.html">Arabic Index</a>] - 
+[<a target="_blank" href="http://htmlpreview.github.io/?https://github.com/undershell/hangman/blob/master/index_en.html">English Index</a>]
+<!--[<a href="http://htmlpreview.github.io/?https://github.com/undershell/hangman/blob/master/hangman/index.html">DEMO</a>]-->
+</p>
 
+
+Each folder contains its resources (img/css/js):
+- hangman/ ---> Hangman for Arabic learners
+- qhangman/ ---> Hangman based on arabic questions
+- versions/ ---> Previous versions
+- tools/ ---> Some text tools
+- index/ ---> index resources
 
 
 ==================
 
-The database is <b>data.json</b>
+The database is <b>data.js</b>
 
 <h3>Overview</h3>
 

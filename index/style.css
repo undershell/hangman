@@ -1,0 +1,50 @@
+/* Variabes */
+/* Mixin's */
+
+/* background: #cdeb8e; */
+
+.footer, .centric {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.game{
+	margin-top:1%;
+	border:	1px solid;
+}
+
+h1{
+  font-weight: bold;
+}
+
+
+body {
+
+}
+
+span {
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: bold;
+}
+
+
+.footer{ 
+	margin-top: 50px;
+}
+
+@media (max-width: 767px) {
+	/*html{background: red;}*/
+}
+@media (max-width: 480px) {
+	#alphabet { padding: 0 0 0 15px; }
+	#alphabet li {
+  margin: 0 5px 5px 0;
+  list-style: none;
+  width: 10px;
+  height: 25px;
+  padding: 5px 15px;
+  font-size: 1.2em;
+}
+}

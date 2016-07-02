@@ -1,16 +1,41 @@
 /*-- Style
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-@import url(http://fonts.googleapis.com/earlyaccess/amiri.css);
+@import url(//fonts.googleapis.com/earlyaccess/amiri.css);
 
 body{
 font-family: 'Amiri', serif;  
   
 }
 
-#button{
+button{
   font-size: 15px;
 }
+
+a {
+    text-decoration: none;
+}
+
+#storebox {
+  margin:5px auto 5%;
+  padding:20px;
+  border:	1px solid #eee;
+  width:300px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -khtml-border-radius: 5px;
+}
+
+input[type="text"]{
+      height: 40px;
+    padding: 0px 10px;
+}
+
+#word {
+  /*color:#fff;*/
+}
+
 
 #tocopy{
   color: #fff;

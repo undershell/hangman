@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+	<meta charset="UTF-8">
+	<title>Arabic Hangman game - لعبة المشنقة</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/jquery.multiselect.css">
+</head>
+
+<body>
+
+	<div class="wrapper header" style="margin-bottom:50px;" >
+		<h1>Al-Mishnaqah</h1>
+		<h2>the Arabic Hangman Game for learners</h2>
+	</div>
+	<div class="wrapper" style="margin:50px 0;">
+	 	<span>Categories :</span> <select multiple="multiple" id="categories"></select>
+		<!--multiple="multiple"-->
+		<span>Level :</span> <select id="levels"  onchange="console.log($(this).children(':selected').length)"></select>
+	</div>
+
+	<div class="wrapper core">
+		<p id="catagoryName"></p>
+		<canvas id="stickman">This Text will show if the Browser does NOT support HTML5 Canvas tag</canvas>
+		<div id="buttons" dir="rtl"></div>
+		<br style="clear: left;" />
+	</div>  
+
+
+	<div class="wrapper">
+		<div id="hold" dir="rtl">
+		</div>
+		<p id="mylives"></p>
+		<p id="clue"><!--Clue ---></p>  
+
+		<div class="container">
+			<button id="hint">Hint</button>
+			<button id="reset">Play again</button>
+			<button id="openModal" onclick="$('#howToplay').show();">How to play !</button>
+		</div>
+		<div id="howToplay" class="wrapper" style="display:none;">
+			<p>Use your Arabic keyboard or the alphabet below to guess the word, or click hint to get a clue. </p>
+		</div>
+	</div>
+	
+
+	<div class="wrapper footer">
+	    <p>AlMashnaqah  © 2015 - by <span>asilentvoice<span></p>
+	</div>
+	<audio id="play" src="http://www.soundjay.com/button/button-30.mp3"></audio>
+
+	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.multiselect.js"></script>
+	<script src="js/modalBox-min.js"></script>
+	<script src="data.js"></script>
+	<script src="js/index.js"></script>
+</body>
+</html>

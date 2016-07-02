@@ -1,0 +1,211 @@
+html{
+	min-height: 100%;
+
+}
+
+
+body {
+	/*background: #0d86b3;*/
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	color: #fff;
+	/*height: 100%;*/
+
+	text-align: center;
+	font-size: 18px;
+	
+
+	background-attachment: fixed;
+	background: #0d86b3; /* Old browsers */
+	background: -moz-linear-gradient(top,  #0d86b3 0%, #11a9e2 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #0d86b3 0%,#11a9e2 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #0d86b3 0%,#11a9e2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d86b3', endColorstr='#11a9e2',GradientType=0 ); /* IE6-9 */
+}
+
+
+
+.wrappper {
+  width: 100%;
+  margin: 0 auto;
+}
+.wrappper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+canvas {
+  color: #fff;
+  border: #fff dashed 2px;
+  padding: 15px;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  /*text-transform: uppercase;*/
+  margin: 5px 0;
+}
+
+h1 {
+  font-size: 2em;
+  font: bold 100px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+h2 {
+  font-size: 1.4em;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+p {
+  font-size: 1.2em;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+span {
+  color: rgba(255, 255, 255, 0.9);
+font-weight: bold;
+}
+
+#alphabet {
+  margin: 15px auto;
+  padding: 0;
+  /*max-width: 900px;*/
+}
+#alphabet:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#alphabet li {
+  float: right;
+  margin: 0 10px 10px 0;
+  list-style: none;
+  width: 35px;
+  height: 30px;
+  padding-top: 10px;
+  background: #fff;
+  color: #000; /*#c1d72e*/
+  cursor: pointer;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border: solid 1px #fff;
+  font-size: 1.2em;
+}
+#alphabet li:hover {
+  background: #0d86b3;
+  border: solid 1px #fff;
+  color: #fff;
+}
+
+#my-word {
+  color: #fff;
+  margin: 0;
+  display: block;
+  padding: 0;
+  display: block;
+}
+
+#my-word li {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 1.6em;
+}
+
+.active {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  -moz-transition: all 1s ease-in;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  cursor: default;
+}
+.active:hover {
+  -moz-transition: all 1s ease-in;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  -moz-transition: all 1s ease-in;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+
+#mylives {
+  font-size: 1.6em;
+  text-align: center;
+  display: block;
+}
+
+#clue {
+  font-size: 1.4em;
+}
+
+button {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -khtml-border-radius: 5px;
+  background: #11a9e2;
+  color: #fff;
+  border: solid 1px #fff;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  padding: 18px 10px;
+  width: 180px;
+  margin: 10px;
+  outline: none;
+}
+button:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background: #0d86b3;
+  border: solid 1px #fff;
+  color: #fff;
+}
+
+.jump{
+   clear: both;
+}
+
+#stickman{
+	float:left;margin: 10px 0 0;
+}
+
+#buttons{
+	float:left;width:430px;padding: 15px;margin: -30px 0 0 10px;
+}
+
+.core{
+	width:850px; margin: 0 auto;
+}
+.footer{ 
+	margin: 50px 0 0 0;/**/
+	color:#CEEA8A;
+	font-size: 12px;
+}
+
+.ctg a {text-decoration: none; color:#fff;}
+
+
+

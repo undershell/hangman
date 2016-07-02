@@ -21,8 +21,8 @@ This is an implementation of the hangman game using HTML/JS/CSS and deploying a 
 
 
 <p align="center">
-  <img src="about/large_1.png" alt="Large view" width="400" height="350" />
-  <img src="about/mobile_1.png" alt="Mobile view"  width="200" height="300" />
+  <img src="index/large_1.png" alt="Large view" width="400" height="350" />
+  <img src="index/mobile_1.png" alt="Mobile view"  width="200" height="300" />
 </p>
 
 <h3>Perspectives</h3>

@@ -47,16 +47,23 @@
 		<br />
 	<div class="row">
 		<div class="column">
+			<input id="tag" type="text" placeholder="أدخل سؤالا أو تلميحا أو مجموعة كلمات دلالية حول الكلمة (إختياري)" />
+
+			<br />
 			<input id="word" type="text" placeholder="أدخل الكلمة" />
 		</div>	
 	</div>  
 	
 	<div class="row centric">
 		<div class="control">
-			<button id="process">تحويل</button>
-			<button id="copy" class="cpybtn" data-clipboard-action="copy" data-clipboard-text="لا يوجد نص">نسخ</button>
+			<button id="process">تعمية</button>
+			<button id="shuffle" class="cpybtn" data-clipboard-action="copy" data-clipboard-text="لا يوجد نص">بعثرة</button>
+			<button id="copy" class="cpybtn"  data-clipboard-action="copy" data-clipboard-text="لا يوجد نص">نسخ</button>
+			<!-- need to copy from the other button-->
 			<button id="reset">محو</button>
+			
 		</div>
+			
 		
 		<div class="centric" id="keyboard">
 			<span id="buttons"></span>
@@ -64,14 +71,53 @@
 		
 	</div>
 	
-	<hr />
-			<p>مع كل اختيار حرف يتم نسخ الكلمة آليا</p>
+			<div style="
+			    margin: 60px 0 0px;
+			    font-size: 18px;
+			    color: #404040;
+			    font-weight: ;
+			">
+				خصائص إضافية
+			<a href="#" class="show_hide">[+/-]</a>
+			
+			</div>
+				
+			<div id="storebox" class="slidingDiv" style="display: block;display:none;">
 
+			
+
+			<div style="
+			    margin: 0px 0 0px;
+			    font-size: 15px;
+			    color: #404040;
+			    font-weight:bold;
+			">
+				خاصية الحفظ (<a target="_blank"  href="saved.html">تحت التجريب</a>)
+	
+	</div>
+	
+					<input id="user" type="text" style="width:150px;" placeholder="أدخل اسمك" />
+					<br />
+					<input type="checkbox" id="store" name="store" /> حفظ الإدخالات<br />
+					<select name="category" id="category">
+						<option selected>قسم عام</option> 
+						<option>أسئلة</option>
+						<option>تلميحات وروابط مشتركة</option>
+					</select>
+					
+					<hr style="margin: 1rem;">
+					
+					<input type="checkbox" id="counter" name="counter" />  تفعيل العداد
+
+					
+			</div>
+			
+			<hr />
+			
 	<div class="row footer" style="margin-top: 5%">
 	    <p id="footer">AlMashnaqah © SeenJeem</p>
 	</div>
 	
-</div>
 
 	<script src="js/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.12/clipboard.min.js"></script>

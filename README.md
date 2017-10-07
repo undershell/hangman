@@ -8,7 +8,9 @@ This is a hangman game that was dedicated to Arabic learners, but which can be e
 [<a target="_blank" href="http://htmlpreview.github.io/?https://github.com/undershell/hangman/blob/master/index_en.html">English Index</a>]
 <!--[<a href="http://htmlpreview.github.io/?https://github.com/undershell/hangman/blob/master/hangman/index.html">DEMO</a>]-->
 </p>
+
 ==================
+
 The database is <b>data.js</b>
 
 Each folder contains its resources (img/css/js):
